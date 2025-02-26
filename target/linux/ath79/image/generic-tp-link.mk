@@ -741,7 +741,7 @@ endef
 TARGET_DEVICES += tplink_tl-wr1043nd-v1
 
 define Device/tplink_tl-wr1043nd-v2
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := qca9558
   DEVICE_MODEL := TL-WR1043N/ND
   DEVICE_VARIANT := v2
